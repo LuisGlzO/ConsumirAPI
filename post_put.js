@@ -6,9 +6,9 @@ boton.addEventListener('click', () => {
     var correo = document.getElementById('correo').value;
 
     const persona = {
-        Nombre: nombre,
-        Apellido: apellido,
-        Correo: correo
+        nombre: nombre,
+        apellido: apellido,
+        correo: correo
     }
 
     //console.log(persona)
